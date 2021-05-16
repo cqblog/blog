@@ -1,119 +1,209 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea</title>
-<link rel="shortcut icon" href="https://Cblog2021.github.io/favicon.ico?v=1621133312749">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    <meta charset="utf-8" >
+
+<title>能量&amp;博客</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Cblog2021.github.io/favicon.ico?v=1621135096611">
 <link rel="stylesheet" href="https://Cblog2021.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea - Atom Feed" href="https://Cblog2021.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="温故而知新" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="&lt;style type=&#34;text/css&#34;&gt;
+#shi
+{
+    font-size:25px;
+    color:#09F;
+    height:25px;
+    font-weight:bold;
+    width:500px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div id=&#34;wai&#34; style=&#34;width:0px; height:26px; overflow:hidden&#34;&gt;
+    &lt;div id=&#34;shi&#34;&gt;留下足迹，共享生活&lt;/div&gt;
+    &lt;div id=&#34;shi&#34;&gt;策马奔腾，共享人世繁华&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+showshi();
+function showshi()
+{
+    var s= document.getElementById(&#34;wai&#34;);
+    if(parseInt(s.style.width)&lt;500)
+    {
+    var w=parseInt(s.style.width)+1;
+    s.style.width=w+&#34;px&#34;;
+    window.setTimeout(&#34;showshi()&#34;,20);
+    }
+}
+&lt;/script&gt;">
+    
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Cblog2021.github.io">
-  <img class="avatar" src="https://Cblog2021.github.io/images/avatar.png?v=1621133312749" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
+    <div id="app" class="main">
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://Cblog2021.github.io/post/hello-gridea/">
-        <h2 class="post-title">免费的PS</h2>
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Cblog2021.github.io">
+        <img src="https://Cblog2021.github.io/images/avatar.png?v=1621135096611" class="site-logo">
+        <h1 class="site-title">能量&amp;博客</h1>
       </a>
-      <div class="post-info">
-        <span>
-          2018-12-12
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-          <a href="https://Cblog2021.github.io/tag/VgdbY1YHw/" class="post-tag">
-            # Gridea
-          </a>
-        
-      </div>
-      
-        <a href="https://Cblog2021.github.io/post/hello-gridea/" class="post-feature-image" style="background-image: url('https://Cblog2021.github.io/post-images/hello-gridea.png')">
-        </a>
-      
-      <div class="post-abstract">
-        
-      </div>
-    </article>
-  
-</div>
-
-    
-        <div class="pagination-container">
-  
-  
-</div>
-
-    
-        <div class="site-footer">
-  Powered by <a href="点击链接加入群聊【博客官方群】：https://jq.qq.com/?_wv=1027&k=bOcdmb9l"_blank">3514332263</a>
-  <a class="rss" href="https://Cblog2021.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
     </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="/shijian" class="site-nav">
+            时间
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <style type="text/css">
+#shi
+{
+    font-size:25px;
+    color:#09F;
+    height:25px;
+    font-weight:bold;
+    width:500px;
+}
+</style>
+</head>
+
+<body>
+<div id="wai" style="width:0px; height:26px; overflow:hidden">
+    <div id="shi">留下足迹，共享生活</div>
+    <div id="shi">策马奔腾，共享人世繁华</div>
+</div>
+</body>
+<script type="text/javascript">
+showshi();
+function showshi()
+{
+    var s= document.getElementById("wai");
+    if(parseInt(s.style.width)<500)
+    {
+    var w=parseInt(s.style.width)+1;
+    s.style.width=w+"px";
+    window.setTimeout("showshi()",20);
+    }
+}
+</script>
+    </div>
+    <div class="site-footer">
+      Powered by <a href="点击链接加入群聊【博客官方群】：https://jq.qq.com/?_wv=1027&k=bOcdmb9l"_blank">3514332263</a> | <a class="rss" href="https://Cblog2021.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://Cblog2021.github.io/post/hello-gridea/">
+                  <h2 class="post-title">免费的PS</h2>
+                </a>
+                <div class="post-date">
+                  2021-05-16
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://Cblog2021.github.io/post/hello-gridea/">
+                  <div class="feature-container" style="background-image: url('https://Cblog2021.github.io/post-images/hello-gridea.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
   </body>
 </html>
