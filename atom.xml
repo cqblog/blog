@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://cblog2021.ml</id>
+    <id>https://cblog2021.ml/</id>
     <title>能量&amp;博客</title>
-    <updated>2021-05-16T11:21:42.676Z</updated>
+    <updated>2021-05-19T12:11:42.524Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://cblog2021.ml"/>
+    <link rel="alternate" href="https://cblog2021.ml/"/>
     <link rel="self" href="https://cblog2021.ml/atom.xml"/>
     <subtitle>&lt;style type=&quot;text/css&quot;&gt;
 #shi
