@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://cblog.52yi.vip/</id>
+    <id>http://cqblog.52yi.vip/</id>
     <title>能量&amp;博客</title>
-    <updated>2021-05-20T11:41:31.968Z</updated>
+    <updated>2021-05-21T14:24:12.907Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://cblog.52yi.vip/"/>
-    <link rel="self" href="http://cblog.52yi.vip/atom.xml"/>
+    <link rel="alternate" href="http://cqblog.52yi.vip/"/>
+    <link rel="self" href="http://cqblog.52yi.vip/atom.xml"/>
     <subtitle>&lt;style type=&quot;text/css&quot;&gt;
 #shi
 {
@@ -37,20 +37,20 @@ function showshi()
 }
 &lt;/script&gt;
 </subtitle>
-    <logo>http://cblog.52yi.vip/images/avatar.png</logo>
-    <icon>http://cblog.52yi.vip/favicon.ico</icon>
+    <logo>http://cqblog.52yi.vip/images/avatar.png</logo>
+    <icon>http://cqblog.52yi.vip/favicon.ico</icon>
     <rights>All rights reserved 2021, 能量&amp;博客</rights>
     <entry>
         <title type="html"><![CDATA[本站]]></title>
-        <id>http://cblog.52yi.vip/post/ben-zhan/</id>
-        <link href="http://cblog.52yi.vip/post/ben-zhan/">
+        <id>http://cqblog.52yi.vip/post/ben-zhan/</id>
+        <link href="http://cqblog.52yi.vip/post/ben-zhan/">
         </link>
         <updated>2021-05-16T06:30:30.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[免费的PS]]></title>
-        <id>http://cblog.52yi.vip/post/hello-gridea/</id>
-        <link href="http://cblog.52yi.vip/post/hello-gridea/">
+        <id>http://cqblog.52yi.vip/post/hello-gridea/</id>
+        <link href="http://cqblog.52yi.vip/post/hello-gridea/">
         </link>
         <updated>2021-05-15T16:00:00.000Z</updated>
     </entry>
