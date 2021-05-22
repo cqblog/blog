@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://nldblog.52yi.vip/</id>
+    <id>http://cgqdblog.github.io/cqblog</id>
     <title>能量&amp;博客</title>
-    <updated>2021-05-22T05:27:48.544Z</updated>
+    <updated>2021-05-22T05:34:26.259Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://nldblog.52yi.vip/"/>
-    <link rel="self" href="http://nldblog.52yi.vip/atom.xml"/>
+    <link rel="alternate" href="http://cgqdblog.github.io/cqblog"/>
+    <link rel="self" href="http://cgqdblog.github.io/cqblog/atom.xml"/>
     <subtitle>我的blog啊！！！</subtitle>
-    <logo>http://nldblog.52yi.vip/images/avatar.png</logo>
-    <icon>http://nldblog.52yi.vip/favicon.ico</icon>
+    <logo>http://cgqdblog.github.io/cqblog/images/avatar.png</logo>
+    <icon>http://cgqdblog.github.io/cqblog/favicon.ico</icon>
     <rights>All rights reserved 2021, 能量&amp;博客</rights>
     <entry>
+        <title type="html"><![CDATA[本站异常通知]]></title>
+        <id>http://cgqdblog.github.io/cqblog/post/ben-zhan-yi-chang-tong-zhi/</id>
+        <link href="http://cgqdblog.github.io/cqblog/post/ben-zhan-yi-chang-tong-zhi/">
+        </link>
+        <updated>2021-05-22T05:31:27.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[快手中的地图[软件分享]]]></title>
-        <id>http://nldblog.52yi.vip/post/dt2/</id>
-        <link href="http://nldblog.52yi.vip/post/dt2/">
+        <id>http://cgqdblog.github.io/cqblog/post/dt2/</id>
+        <link href="http://cgqdblog.github.io/cqblog/post/dt2/">
         </link>
         <updated>2021-05-22T04:21:16.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[免费的PS[软件分享]]]></title>
-        <id>http://nldblog.52yi.vip/post/ps1/</id>
-        <link href="http://nldblog.52yi.vip/post/ps1/">
+        <id>http://cgqdblog.github.io/cqblog/post/ps1/</id>
+        <link href="http://cgqdblog.github.io/cqblog/post/ps1/">
         </link>
         <updated>2021-05-15T16:00:00.000Z</updated>
     </entry>
