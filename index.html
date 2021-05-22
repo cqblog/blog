@@ -81,7 +81,39 @@
                 </a>
             </div>
             <div class="header-info">
-                <p></p>
+                <p>&lt;script language=javascript&gt;
+var layers =document.layers,style=document.all,both=layers||style,idme=908601;
+if(layers){layerRef=&#39;document.layers&#39;;styleRef =&#39;&#39;;}if(style){layerRef=&#39;document.all&#39;;styleRef =
+&#39;.style&#39;;}
+function writeOnText(obj,str){
+if(layers)with(document[obj]){ document.open();document.write(str);document.close();}
+if(style)eval(obj+&#39;.innerHTML=str&#39;); }
+var dispStr=new Array(&#34;留下足迹，共享生活&#34;);
+var overMe=0;
+function txtTyper(str,idx,idObj,spObj,clr1,clr2,delay,plysnd){
+var tmp0=tmp1= &#39;&#39;,skip=100;
+if (both &amp;&amp; idx&lt;=str.length) {
+if (str.charAt(idx)==&#39;&lt;&#39;){ while(str.charAt(idx)!=&#39;&gt;&#39;) idx++;idx++;}
+if (str.charAt(idx)==&#39;&amp;&#39;&amp;&amp;str.charAt(idx+1)!=&#39; &#39;){ while (str.charAt(idx)!= &#39;;&#39;)idx++;idx++;}
+tmp0 = str.slice(0,idx);
+tmp1 = str.charAt(idx++);
+if (overMe==0 &amp;&amp; plysnd==1){
+if (navigator.plugins[0]){
+if(navigator.plugins[&#34;LiveAudio&#34;][0].type==&#34;audio/basic&#34; &amp;&amp; navigator.javaEnabled()){document.embeds
+[0].stop();
+setTimeout(&#34;document.embeds[0].play(false)&#34;,100);}
+} else if (document.all){
+ding.Stop();
+setTimeout(&#34;ding.Run()&#34;,100);}
+overMe=1;}else overMe=0;
+writeOnText(idObj, &#34;&lt;span class=&#34;+spObj+&#34;&gt;&lt;font color=&#39;&#34;+clr1+&#34;&#39;&gt;&#34;+tmp0+&#34;&lt;/font&gt;&lt;font color=&#39;&#34;+clr2
++&#34;&#39;&gt;&#34;+tmp1+&#34;&lt;/font&gt;&lt;/span&gt;&#34;);
+setTimeout(&#34;txtTyper(&#39;&#34;+str+&#34;&#39;, &#34;+idx+&#34;, &#39;&#34;+idObj+&#34;&#39;, &#39;&#34;+spObj+&#34;&#39;, &#39;&#34;+clr1+&#34;&#39;, &#39;&#34;+clr2+&#34;&#39;, &#34;+delay+&#34; ,&#34;+plysnd+&#34;)&#34;,delay);}}
+function init(){txtTyper(dispStr[0], 0, &#39;ttl0&#39;, &#39;ttl1&#39;, &#39;#339933&#39;, &#39;#99FF33&#39;, 300, 0);}
+&lt;/script&gt;
+&lt;BODY onload=init()&gt;
+&lt;DIV class=ttl1 id=ttl0&gt;&lt;/DIV&gt;
+&lt;/BODY&gt;</p>
             </div>
             <div class="top-social">
                 
@@ -113,6 +145,22 @@
                 </div>
                 <div class="mdui-card-actions" style="float:right;">
                     <a href="http://nldblog.52yi.vip/post/hello-gridea/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head_card-offset"></div>
+
+    <div class="mdui-card">
+        <div class="mdui-card-media">
+            <img src="http://nldblog.52yi.vip//media/img/bai.jpg"/>
+            <div class="mdui-card-media-covered">
+                <div class="mdui-card-primary">
+                    <div class="mdui-card-primary-title">为什么要搭建这个blog？？</div>
+                    <div class="mdui-card-primary-subtitle"></div>
+                </div>
+                <div class="mdui-card-actions" style="float:right;">
+                    <a href="http://nldblog.52yi.vip/post/wei-shi-me-yao-da-jian-zhe-ge-blog/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
                 </div>
             </div>
         </div>
