@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://cqblog.52yi.vip/</id>
+    <id>http://nldblog.52yi.vip/</id>
     <title>能量&amp;博客</title>
-    <updated>2021-05-22T00:40:46.095Z</updated>
+    <updated>2021-05-22T01:20:02.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://cqblog.52yi.vip/"/>
-    <link rel="self" href="http://cqblog.52yi.vip/atom.xml"/>
-    <logo>http://cqblog.52yi.vip/images/avatar.png</logo>
-    <icon>http://cqblog.52yi.vip/favicon.ico</icon>
+    <link rel="alternate" href="http://nldblog.52yi.vip/"/>
+    <link rel="self" href="http://nldblog.52yi.vip/atom.xml"/>
+    <logo>http://nldblog.52yi.vip/images/avatar.png</logo>
+    <icon>http://nldblog.52yi.vip/favicon.ico</icon>
     <rights>All rights reserved 2021, 能量&amp;博客</rights>
     <entry>
         <title type="html"><![CDATA[此网站]]></title>
-        <id>http://cqblog.52yi.vip/post/ci-wang-zhan/</id>
-        <link href="http://cqblog.52yi.vip/post/ci-wang-zhan/">
+        <id>http://nldblog.52yi.vip/post/ci-wang-zhan/</id>
+        <link href="http://nldblog.52yi.vip/post/ci-wang-zhan/">
         </link>
         <updated>2021-05-22T00:19:12.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[本站]]></title>
-        <id>http://cqblog.52yi.vip/post/ben-zhan/</id>
-        <link href="http://cqblog.52yi.vip/post/ben-zhan/">
+        <id>http://nldblog.52yi.vip/post/ben-zhan/</id>
+        <link href="http://nldblog.52yi.vip/post/ben-zhan/">
         </link>
         <updated>2021-05-16T06:30:30.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[免费的PS]]></title>
-        <id>http://cqblog.52yi.vip/post/hello-gridea/</id>
-        <link href="http://cqblog.52yi.vip/post/hello-gridea/">
+        <id>http://nldblog.52yi.vip/post/hello-gridea/</id>
+        <link href="http://nldblog.52yi.vip/post/hello-gridea/">
         </link>
         <updated>2021-05-15T16:00:00.000Z</updated>
     </entry>
