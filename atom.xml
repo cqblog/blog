@@ -2,41 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cblog.aote.xyz/</id>
     <title>能量&amp;博客</title>
-    <updated>2021-05-22T00:24:33.000Z</updated>
+    <updated>2021-05-22T00:26:17.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cblog.aote.xyz/"/>
     <link rel="self" href="https://cblog.aote.xyz/atom.xml"/>
-    <subtitle>&lt;style type=&quot;text/css&quot;&gt;
-#shi
-{
-    font-size:25px;
-    color:#09F;
-    height:25px;
-    font-weight:bold;
-    width:500px;
-}
-&lt;/style&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-&lt;div id=&quot;wai&quot; style=&quot;width:0px; height:26px; overflow:hidden&quot;&gt;
-    &lt;div id=&quot;shi&quot;&gt;留下足迹，共享生活&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-showshi();
-function showshi()
-{
-    var s= document.getElementById(&quot;wai&quot;);
-    if(parseInt(s.style.width)&lt;500)
-    {
-    var w=parseInt(s.style.width)+1;
-    s.style.width=w+&quot;px&quot;;
-    window.setTimeout(&quot;showshi()&quot;,20);
-    }
-}
-&lt;/script&gt;
-</subtitle>
     <logo>https://cblog.aote.xyz/images/avatar.png</logo>
     <icon>https://cblog.aote.xyz/favicon.ico</icon>
     <rights>All rights reserved 2021, 能量&amp;博客</rights>
