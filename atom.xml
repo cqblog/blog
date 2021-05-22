@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://cgqdblog.github.io/cqblog</id>
+    <id>https://cgqdblog.github.io/cqblog/</id>
     <title>能量&amp;博客</title>
-    <updated>2021-05-22T05:46:53.177Z</updated>
+    <updated>2021-05-22T05:57:06.394Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://cgqdblog.github.io/cqblog"/>
+    <link rel="alternate" href="https://cgqdblog.github.io/cqblog/"/>
     <link rel="self" href="https://cgqdblog.github.io/cqblog/atom.xml"/>
-    <subtitle>我的blog啊！！！</subtitle>
     <logo>https://cgqdblog.github.io/cqblog/images/avatar.png</logo>
     <icon>https://cgqdblog.github.io/cqblog/favicon.ico</icon>
     <rights>All rights reserved 2021, 能量&amp;博客</rights>
+    <entry>
+        <title type="html"><![CDATA[本站没有图形]]></title>
+        <id>https://cgqdblog.github.io/cqblog/post/ben-zhan-mei-you-tu-xing/</id>
+        <link href="https://cgqdblog.github.io/cqblog/post/ben-zhan-mei-you-tu-xing/">
+        </link>
+        <updated>2021-05-22T05:52:04.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[本站异常通知]]></title>
         <id>https://cgqdblog.github.io/cqblog/post/ben-zhan-yi-chang-tong-zhi/</id>
