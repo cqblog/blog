@@ -2,43 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://nldblog.52yi.vip/</id>
     <title>能量&amp;博客</title>
-    <updated>2021-05-22T02:13:08.979Z</updated>
+    <updated>2021-05-22T02:19:15.517Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://nldblog.52yi.vip/"/>
     <link rel="self" href="http://nldblog.52yi.vip/atom.xml"/>
-    <subtitle>&lt;script language=javascript&gt;
-var layers =document.layers,style=document.all,both=layers||style,idme=908601;
-if(layers){layerRef=&apos;document.layers&apos;;styleRef =&apos;&apos;;}if(style){layerRef=&apos;document.all&apos;;styleRef =
-&apos;.style&apos;;}
-function writeOnText(obj,str){
-if(layers)with(document[obj]){ document.open();document.write(str);document.close();}
-if(style)eval(obj+&apos;.innerHTML=str&apos;); }
-var dispStr=new Array(&quot;留下足迹，共享生活&quot;);
-var overMe=0;
-function txtTyper(str,idx,idObj,spObj,clr1,clr2,delay,plysnd){
-var tmp0=tmp1= &apos;&apos;,skip=100;
-if (both &amp;&amp; idx&lt;=str.length) {
-if (str.charAt(idx)==&apos;&lt;&apos;){ while(str.charAt(idx)!=&apos;&gt;&apos;) idx++;idx++;}
-if (str.charAt(idx)==&apos;&amp;&apos;&amp;&amp;str.charAt(idx+1)!=&apos; &apos;){ while (str.charAt(idx)!= &apos;;&apos;)idx++;idx++;}
-tmp0 = str.slice(0,idx);
-tmp1 = str.charAt(idx++);
-if (overMe==0 &amp;&amp; plysnd==1){
-if (navigator.plugins[0]){
-if(navigator.plugins[&quot;LiveAudio&quot;][0].type==&quot;audio/basic&quot; &amp;&amp; navigator.javaEnabled()){document.embeds
-[0].stop();
-setTimeout(&quot;document.embeds[0].play(false)&quot;,100);}
-} else if (document.all){
-ding.Stop();
-setTimeout(&quot;ding.Run()&quot;,100);}
-overMe=1;}else overMe=0;
-writeOnText(idObj, &quot;&lt;span class=&quot;+spObj+&quot;&gt;&lt;font color=&apos;&quot;+clr1+&quot;&apos;&gt;&quot;+tmp0+&quot;&lt;/font&gt;&lt;font color=&apos;&quot;+clr2
-+&quot;&apos;&gt;&quot;+tmp1+&quot;&lt;/font&gt;&lt;/span&gt;&quot;);
-setTimeout(&quot;txtTyper(&apos;&quot;+str+&quot;&apos;, &quot;+idx+&quot;, &apos;&quot;+idObj+&quot;&apos;, &apos;&quot;+spObj+&quot;&apos;, &apos;&quot;+clr1+&quot;&apos;, &apos;&quot;+clr2+&quot;&apos;, &quot;+delay+&quot; ,&quot;+plysnd+&quot;)&quot;,delay);}}
-function init(){txtTyper(dispStr[0], 0, &apos;ttl0&apos;, &apos;ttl1&apos;, &apos;#339933&apos;, &apos;#99FF33&apos;, 300, 0);}
-&lt;/script&gt;
-&lt;BODY onload=init()&gt;
-&lt;DIV class=ttl1 id=ttl0&gt;&lt;/DIV&gt;
-&lt;/BODY&gt;</subtitle>
     <logo>http://nldblog.52yi.vip/images/avatar.png</logo>
     <icon>http://nldblog.52yi.vip/favicon.ico</icon>
     <rights>All rights reserved 2021, 能量&amp;博客</rights>
