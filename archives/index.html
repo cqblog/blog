@@ -1,203 +1,364 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang='zh-CN'>
+
 <head>
-    <meta charset="UTF-8">
-    <title>能量&amp;博客</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="renderer" content="webkit">
-    <meta http-equiv="Cache-Control" content="no-siteapp"/>
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
-    <link rel="stylesheet" href="/media/live2d/css/live2d.css" />
-    
-</head>
-<body class=" mdui-appbar-with-toolbar  mdui-theme-primary-pink mdui-theme-accent-pink">
-<header class="mdui-toolbar mdui-color-pink mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide" style="z-index: 1000">
-    <a href="javascript:;" mdui-drawer="{target: '#left-drawer',overlay:true}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
-    <span class="mdui-typo-title">能量&amp;博客</span>
-    <div class="mdui-toolbar-spacer"></div>
-<!--    <a href="javascript:history.go(0);" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
-    <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
-</header>
+  <meta charset="utf-8" />
+<meta name="viewport"
+  content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>
+  能量&amp;博客
+</title>
 
-<div class="mdui-drawer mdui-color-white mdui-drawer-full-height mdui-drawer-close" id="left-drawer">
-    <ul class="mdui-list">
-        <li class="mdui-subheader">菜单</li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/" class="mdui-list-item-content">首页</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/archives" class="mdui-list-item-content">归档</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/tags" class="mdui-list-item-content">标签</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/post/about" class="mdui-list-item-content">关于</a>
-        </li>
-        
-    </ul>
-</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wskkku/wskkku.github.io@main/css/normalize0.0.0.1.css">
+<script src="https://cdn.jsdelivr.net/gh/wskkku/wskkku.github.io@main/js/jQuery.Rokss.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
-<div class="mdui-container">
-    <div class="mdui-row">
-        <div class="mdui-col-md-10 mdui-col-offset-md-1 ">
-            
-            
-                <div class="mdui-typo-display-1 mdui-m-b-2 mdui-m-l-1">
-                    <div class="mdui-row">
-                        <div class="mdui-col-xs-12">2021</div>
-                    </div>
-                    <div class="mdui-row">
-                        
-                        
-                            <div class="mdui-col-xs-6 mdui-p-a-1">
-                                <div class="mdui-card">
-                                    <div class="mdui-card-media">
-                                        <img width=536px height=300px src=" https://nldblog.52yi.vip//post-images/hello.jpg"/>
-                                        <div class="mdui-card-primary">
-                                            <div class="mdui-card-primary-title">hello！</div>
-                                            <div class="mdui-card-primary-subtitle">2021-05-23</div>
-                                        </div>
-                                    </div>
-                                    <div class="mdui-card-actions" style="float:right;">
-                                        <a href="https://nldblog.52yi.vip/post/hello/" class="mdui-btn mdui-color-theme-accent mdui-ripple">点击查看</a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        
-                        
-                            <div class="mdui-col-xs-6 mdui-p-a-1">
-                                <div class="mdui-card">
-                                    <div class="mdui-card-media">
-                                        <img width=536px height=300px src=" https://nldblog.52yi.vip//post-images/yuan-lao-ping-shi-shi.png"/>
-                                        <div class="mdui-card-primary">
-                                            <div class="mdui-card-primary-title">袁隆平逝世</div>
-                                            <div class="mdui-card-primary-subtitle">2021-05-22</div>
-                                        </div>
-                                    </div>
-                                    <div class="mdui-card-actions" style="float:right;">
-                                        <a href="https://nldblog.52yi.vip/post/yuan-lao-ping-shi-shi/" class="mdui-btn mdui-color-theme-accent mdui-ripple">点击查看</a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        
-                        
-                            <div class="mdui-col-xs-6 mdui-p-a-1">
-                                <div class="mdui-card">
-                                    <div class="mdui-card-media">
-                                        <img width=536px height=300px src=" https://nldblog.52yi.vip//post-images/spjx3.webp"/>
-                                        <div class="mdui-card-primary">
-                                            <div class="mdui-card-primary-title">视频解析网站</div>
-                                            <div class="mdui-card-primary-subtitle">2021-05-22</div>
-                                        </div>
-                                    </div>
-                                    <div class="mdui-card-actions" style="float:right;">
-                                        <a href="https://nldblog.52yi.vip/post/spjx3/" class="mdui-btn mdui-color-theme-accent mdui-ripple">点击查看</a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        
-                        
-                            <div class="mdui-col-xs-6 mdui-p-a-1">
-                                <div class="mdui-card">
-                                    <div class="mdui-card-media">
-                                        <img width=536px height=300px src=" https://nldblog.52yi.vip//post-images/dt2.png"/>
-                                        <div class="mdui-card-primary">
-                                            <div class="mdui-card-primary-title">快手中的地图[软件分享]</div>
-                                            <div class="mdui-card-primary-subtitle">2021-05-22</div>
-                                        </div>
-                                    </div>
-                                    <div class="mdui-card-actions" style="float:right;">
-                                        <a href="https://nldblog.52yi.vip/post/dt2/" class="mdui-btn mdui-color-theme-accent mdui-ripple">点击查看</a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        
-                        
-                            <div class="mdui-col-xs-6 mdui-p-a-1">
-                                <div class="mdui-card">
-                                    <div class="mdui-card-media">
-                                        <img width=536px height=300px src=" https://nldblog.52yi.vip//post-images/ps1.png"/>
-                                        <div class="mdui-card-primary">
-                                            <div class="mdui-card-primary-title">免费的PS[软件分享]</div>
-                                            <div class="mdui-card-primary-subtitle">2021-05-16</div>
-                                        </div>
-                                    </div>
-                                    <div class="mdui-card-actions" style="float:right;">
-                                        <a href="https://nldblog.52yi.vip/post/ps1/" class="mdui-btn mdui-color-theme-accent mdui-ripple">点击查看</a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        
-                    </div>
-                </div>
-            
-        </div>
-    </div>
-    <div class="mdui-row">
-        
 
-    </div>
-</div>
-<footer class="mdui-container footer ">
-    <div class="head_card-offset"></div>
-    <div class="mdui-row mdui-row-gapless">
-        <div class="k-container">
-            <img width="100%" src="/media/img/skirt.png">
-        </div>
-    </div>
+<link rel="shortcut icon" href="https://nldblog.52yi.vip//favicon.ico?v=1621856507509">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://nldblog.52yi.vip//styles/main.css">
 
-    <div class="site-info">
-        Powered by <a href="https://jq.qq.com/?_wv=1027&k=bOcdmb9l"_blank">3514332263</a>
-    </div>
-</footer>
-<div id="landlord" style="left:5px;bottom:0px;">
-    <div class="message" style="opacity:0"></div>
-    <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
-    <div class="live_talk_input_body">
-        <div class="live_talk_input_name_body">
-            <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字" />
-        </div>
-        <div class="live_talk_input_text_body">
-            <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？"/>
-            <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
-        </div>
-    </div>
-    <input name="live_talk" id="live_talk" value="1" type="hidden" />
-    <div class="live_ico_box">
-        <div class="live_ico_item type_info" id="showInfoBtn"></div>
-        <div class="live_ico_item type_talk" id="showTalkBtn"></div>
-        <div class="live_ico_item type_music" id="musicButton"></div>
-        <div class="live_ico_item type_youdu" id="youduButton"></div>
-        <div class="live_ico_item type_quit" id="hideButton"></div>
-        <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
-        <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
-        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
-        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
-        <input id="duType" value="douqilai,l2d_caihong" type="hidden">
-    </div>
-</div>
-<div id="open_live2d">召唤伊斯特瓦尔</div>
+<link rel="alternate" type="application/atom+xml" title="能量&amp;博客 - Atom Feed"
+  href="https://nldblog.52yi.vip//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.7.2/build/styles/atelier_plateau_light.min.css"
+  id="hightLightCode" rel="stylesheet" type="text/css" />
+
+
 <script>
-    var message_Path = '/media/live2d/';//资源目录，如果目录不对请更改
-    var talkAPI = "";//如果有类似图灵机器人的聊天接口请填写接口路径
+  var setStyle = function (cssArr) {
+    var i = 0, len = cssArr.length;
+    for (i; i < len; i++) {
+      document.write('<link href="' + cssArr[i] + '" type="text/css" rel=stylesheet>');
+    }
+  };
+
+  if ($.cookie('theme') === 'dark') {
+    $('html').attr('theme', 'dark');
+    $('#hightLightCode').attr('href', '//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.7.2/build/styles/atelier_plateau_dark.min.css')
+  } else {
+    $('#hightLightCode').attr('href', '//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.7.2/build/styles/atelier_plateau_light.min.css')
+  }
+
 </script>
-<!--<script src="/media/js/jquery-3.3.1.min.js"></script>-->
-<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="/media/live2d/js/live2d.js"></script>
-<script type="text/javascript" src="/media/live2d/js/message.js"></script>
+
+
+    
+        
+    <meta name="description" content="策马奔腾，共享人世繁华。" />
+</head>
+
+<body>
+
+  <div class="nav-placeholder">
+    <nav class="navbar navbar-expand-lg light-theme">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://nldblog.52yi.vip//favicon.ico?v=1621856507509" width="30" height="30" alt="">
+            </a>
+            <a class="navbar-brand" href="#">
+                能量&amp;博客
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list navbar-toggler-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    
+                        
+                                <li class="nav-item">
+                                    <a href="/" class="nav-link">
+                                        首页
+                                    </a>
+                                </li>
+                                
+                                    
+                        
+                                <li class="nav-item">
+                                    <a href="/archives" class="nav-link">
+                                        归档
+                                    </a>
+                                </li>
+                                
+                                    
+                        
+                                <li class="nav-item">
+                                    <a href="/tags" class="nav-link">
+                                        标签
+                                    </a>
+                                </li>
+                                
+                                    
+                        
+                                <li class="nav-item">
+                                    <a href="/post/about" class="nav-link">
+                                        关于
+                                    </a>
+                                </li>
+                                
+                                    
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0" id="gridea-search-form"
+                    action="https://nldblog.52yi.vip//search/">
+                    <input class="search-input mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q"
+                        autocomplete="off" />
+                    <button class="btn-search my-2 my-sm-0" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+
+                <div class="theme-change">
+                    <ul>
+                        <i class="bi bi-sun-fill light-theme"></i>
+                        <i class="bi bi-moon-fill dark-theme"></i>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+        <script>
+            var themeFlag = 0
+            if ($.cookie('theme') === 'dark') {
+                $('.theme-change').find('ul').css({
+                    'transform': 'translateX(-55px)',
+                    'transition': 'none'
+                })
+                themeFlag = 1
+            }
+
+            $('.theme-change').click(function () {
+                $(this).find('ul').css('transition', '.3s')
+                if (themeFlag == 0) {
+                    $(this).find('ul').css('transform', 'translateX(-55px)');
+                    themeFlag = 1
+                    $.removeCookie('theme', { path: '/' })
+                    $.cookie('theme', 'dark', { path: '/' })
+                    $('html').attr('theme', 'dark');
+                } else {
+                    $(this).find('ul').css('transform', 'translateX(0px)');
+                    themeFlag = 0
+                    $.removeCookie('theme', { path: '/' })
+                    $.cookie('theme', 'light', { path: '/' })
+                    $('html').attr('theme', 'light');
+                }
+            });
+
+            window.addEventListener('scroll', function () {
+                if (this.pageYOffset >= 300) {
+                    $('.navbar').addClass('fixed-top').css({
+                        'background': 'var(--box-bg-color)',
+                        'border-bottom': '2px solid var(--main-color)',
+                    })
+
+                    $('.search-input').css('backgroundColor', 'var(--page-bg-color)')
+                    $('.btn-search').css('backgroundColor', 'var(--page-bg-color)')
+                } else {
+                    $('.navbar').removeClass('fixed-top').css({
+                        'background': 'none',
+                        'border-bottom': 'none',
+                    })
+
+                    $('.search-input').css('backgroundColor', 'var(--box-bg-color)')
+                    $('.btn-search').css('backgroundColor', 'var(--box-bg-color)')
+                }
+            })
+
+            $('.navbar-toggler').click(function () {
+                if (window.pageYOffset < 300) {
+                    if ($(this).attr('aria-expanded') == "false") {
+                        $('.navbar').css({
+                            'background': 'var(--box-bg-color)',
+                            'border-bottom': '2px solid var(--main-color)',
+                        })
+
+                        $('.search-input').css('backgroundColor', 'var(--page-bg-color)')
+                        $('.btn-search').css('backgroundColor', 'var(--page-bg-color)')
+                    } else {
+                        $('.navbar').css({
+                            'background': 'none',
+                            'border-bottom': 'none',
+                        })
+
+                        $('.search-input').css('backgroundColor', 'var(--box-bg-color)')
+                        $('.btn-search').css('backgroundColor', 'var(--box-bg-color)')
+                    }
+                }
+            });
+            console.log($.cookie('theme'));
+        </script>
+
+    <div class="jumbotron">
+
+  
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-1 d-none d-lg-block"></div>
+          <div class="col-lg-3 col-md-4 col-sm-4 d-none d-sm-block">
+            <div class="avatar"
+              style="background: url('https://nldblog.52yi.vip//images/avatar.png?v=1621856507509');background-size: cover;"
+              alt="">
+              <div class="mask-dark"></div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <h1 class="display-4 title">
+              能量&amp;博客
+            </h1>
+            <p class="lead context">
+              策马奔腾，共享人世繁华。
+            </p>
+            
+          </div>
+        </div>
+      </div>
+</div>
+
+      <div class="container">
+
+        
+
+  <div class="archives-container">
+    
+      <div class="archives-inner">
+        <h2 class="year">
+          2021
+        </h2>
+        <div class="post-list">
+          
+            
+              <a href="https://nldblog.52yi.vip/post/you-guan-sheng-huo-de-shuo-shuo-sheng-huo-yu-lu-xin-qing-shuo-shuo/" class="post">
+                <h2 class="archives-title title">
+                  有关生活的说说 生活语录心情说说
+                </h2>
+                <div class="time">
+                  2021-05-24
+                </div>
+              </a>
+              
+                
+            
+              <a href="https://nldblog.52yi.vip/post/hello/" class="post">
+                <h2 class="archives-title title">
+                  hello！
+                </h2>
+                <div class="time">
+                  2021-05-23
+                </div>
+              </a>
+              
+                
+            
+              <a href="https://nldblog.52yi.vip/post/yuan-lao-ping-shi-shi/" class="post">
+                <h2 class="archives-title title">
+                  袁隆平逝世
+                </h2>
+                <div class="time">
+                  2021-05-22
+                </div>
+              </a>
+              
+                
+            
+              <a href="https://nldblog.52yi.vip/post/spjx3/" class="post">
+                <h2 class="archives-title title">
+                  视频解析网站
+                </h2>
+                <div class="time">
+                  2021-05-22
+                </div>
+              </a>
+              
+                
+            
+              <a href="https://nldblog.52yi.vip/post/dt2/" class="post">
+                <h2 class="archives-title title">
+                  快手中的地图[软件分享]
+                </h2>
+                <div class="time">
+                  2021-05-22
+                </div>
+              </a>
+              
+                
+            
+              <a href="https://nldblog.52yi.vip/post/ps1/" class="post">
+                <h2 class="archives-title title">
+                  免费的PS[软件分享]
+                </h2>
+                <div class="time">
+                  2021-05-16
+                </div>
+              </a>
+              
+                
+        </div>
+      </div>
+      
+  </div>
+
+
+      </div>
+
+      <div class="container">
+  <div class="pagination-container">
+    
+        
+  </div>
+</div>
+
+        <div class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="detial">
+          Powered by <a href="https://jq.qq.com/?_wv=1027&k=bOcdmb9l"_blank">3514332263</a>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="about-me">
+          <div class="avator"
+            style="background: url('https://nldblog.52yi.vip//images/avatar.png?v=1621856507509');background-size: cover;">
+            <div class="mask-dark"></div>
+          </div>
+          <div class="social-link">
+            
+              
+                  
+              
+                  
+              
+                  
+              
+                  
+              
+                  
+              
+                  
+              
+                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3514332263&amp;site=qq&amp;menu=yes" class="clearfix" target="_blank">
+                  <i class="ri-qq-line"></i>
+                </a>
+                
+                  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+
 </html>
